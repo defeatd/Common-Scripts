@@ -6,10 +6,10 @@ echo "开始更新系统..."
 sudo apt update
 echo "完成更新系统"
 
-# 安装 curl 和 wget
-echo "开始安装 curl 和 wget..."
-sudo apt install -y curl wget
-echo "完成安装 curl 和 wget"
+# 安装 curl 
+echo "开始安装 curl "
+sudo apt install -y curl
+echo "完成安装 curl "
 
 # 修改系统时区为 Asia/Shanghai
 echo "开始修改系统时区为 Asia/Shanghai..."
