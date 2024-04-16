@@ -1,5 +1,5 @@
 #!/bin/bash
-# 这个脚本将为您的 Debian 系统安装 curl、wget、docker，然后更改时间区域，启用 BBR，并安装 Python
+# 这个脚本将为您的 Debian 系统安装 curl、docker，然后更改时间区域，启用 BBR，并安装 Python
 
 # 更新系统
 echo "开始更新系统..."
