@@ -26,7 +26,7 @@ echo "完成启用 bbr"
 
 # 安装 Python 3 和 pip
 echo "开始安装 Python 3 和 pip..."
-sudo apt-get update && sudo apt-get install -y python3 python3-pip
+sudo apt-get install -y python3 python3-pip
 echo "完成安装 Python 3 和 pip"
 
 # 安装 Rclone
