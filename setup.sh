@@ -32,7 +32,7 @@ echo "完成安装 Python 3 和 pip"
 # 安装 Rclone
 echo "开始安装 Rclone..."
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
-apt install fuse3
+apt install fuse3 -y
 echo "完成安装 Rclone"
 
 # 安装 docker
